@@ -1,1 +1,56 @@
+#Part1
+coffeeTable = ["half burned candle", "hipster card deck", half drank coffee cup", "post its and muji pen"]
+
+computerDesktop = ["eclipse background", "class folders", "assorted screenshots", "too full application bar"]
+
+bedsideTable = ["Lyle lamp", "kindle", "a real book", "cardamom candle", "phone charger", "plant x2"]
+
+desk = ["rarely used monitor", "more plants", "pents in sake cup", "too many cords", "picture of my desert dude and me"]
+
+#Part2
+#This one is wrong. But why?
+{
+    "name": "Barbara",
+    "make": "Lexus",
+    "model": "is250",
+    "year": "2009",
+    "color": "silver",
+    "interior": "black",
+    "miles": "too many",
+    "bike rack": True,
+    "plates": "Washington State"
+}
+
+#The correect version. Can't see the differences!
+    {
+        "name": "Barbara",
+        "make": "Lexus",
+        "model": "is250",
+        "year": "2009",
+        "miles": "too many",
+        "color": "silver",
+        "cup holders": 6,
+        "bike rack": true
+    }
+
+#Part3
+#Storytime!
+print ("Welcome to MadLibs!")
+print ("Fill in the prompts to play.")
+print ("----------------------------")
+
+color = raw_input("Color: ")
+typeOfHome = raw_input("Type of Home: ")
+transportation = raw_input("Type of Transportation: ")
+noun = raw_input("Noun: ")
+animal = raw_input("Animal: ")
+positiveAdjective = raw_input("Positive Adjective: ")
+number raw_input("Number: ")
+
+    story = "I had an appointment to cut my hair and dye it" + color.\
+    "So I left my" + typeOfHome + "and started walking to the" + transporation + "stop."\
+    "Im standing there reading my" + noun + "when all of a sudden a" + animal + "poops on my head!"\
+    "I hear its a" + positiveAdjective + "but it has happened to me" + number + "times and Ill tell you it doesnt feel so lucky!"
+
+print (story)
 
