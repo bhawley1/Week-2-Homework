@@ -50,7 +50,7 @@ number raw_input("Number: ")
     story = "I had an appointment to cut my hair and dye it" + color.\
     "So I left my" + typeOfHome + "and started walking to the" + transporation + "stop."\
     "Im standing there reading my" + noun + "when all of a sudden a" + animal + "poops on my head!"\
-    "I hear its a" + positiveAdjective + "but it has happened to me" + number + "times and Ill tell you it doesnt feel so lucky!"
+    "I hear its" + positiveAdjective + "luck but it has happened to me" + number + "times and Ill tell you it doesnt feel so lucky!"
 
 print (story)
 
