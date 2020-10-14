@@ -45,7 +45,7 @@ transportation = raw_input("Type of Transportation: ")
 noun = raw_input("Noun: ")
 animal = raw_input("Animal: ")
 positiveAdjective = raw_input("Positive Adjective: ")
-number raw_input("Number: ")
+number = raw_input("Number: ")
 
     story = "I had an appointment to cut my hair and dye it" + color.\
     "So I left my" + typeOfHome + "and started walking to the" + transporation + "stop."\
